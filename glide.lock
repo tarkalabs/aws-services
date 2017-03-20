@@ -1,0 +1,50 @@
+hash: 5be8837111537ed2af0ed0af751ebf63919893facfabcac880205b8fdf00db82
+updated: 2017-03-20T14:48:59.001629002-07:00
+imports:
+- name: github.com/aws/aws-sdk-go
+  version: 695fe24acaf9afe80b0ce261d4637f42ba0b4c7d
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/awsutil
+  - aws/client
+  - aws/client/metadata
+  - aws/corehandlers
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/credentials/endpointcreds
+  - aws/credentials/stscreds
+  - aws/defaults
+  - aws/ec2metadata
+  - aws/endpoints
+  - aws/request
+  - aws/session
+  - aws/signer/v4
+  - private/protocol
+  - private/protocol/ec2query
+  - private/protocol/query
+  - private/protocol/query/queryutil
+  - private/protocol/rest
+  - private/protocol/xml/xmlutil
+  - private/waiter
+  - service/ec2
+  - service/sts
+- name: github.com/go-ini/ini
+  version: 1730955e3146956d6a087861380f9b4667ed5071
+- name: github.com/jmespath/go-jmespath
+  version: bd40a432e4c76585ef6b72d3fd96fb9b6dc7b68d
+- name: github.com/jmoiron/sqlx
+  version: 8ed836a8adb659e8492bcaa49e0880bb84075fe2
+  subpackages:
+  - reflectx
+- name: github.com/lib/pq
+  version: 472a0745531a17dbac346e828b4c60e73ddff30c
+  subpackages:
+  - oid
+- name: github.com/rubenv/sql-migrate
+  version: a3e2963537993d229b6e257d10bd8bc640b06ce3
+  subpackages:
+  - '...'
+- name: github.com/satori/go.uuid
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb
+testImports: []
