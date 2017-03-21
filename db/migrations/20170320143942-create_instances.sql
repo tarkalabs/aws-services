@@ -7,5 +7,6 @@ create table instances(
 	attributes jsonb
 );
 
+
 -- +migrate Down
 drop table instances;
